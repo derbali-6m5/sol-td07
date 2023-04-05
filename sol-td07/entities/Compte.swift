@@ -7,12 +7,12 @@
 
 import Foundation
 class Compte : Codable {
-    var id: String
+    var id: String?
     var type: String
     var solde:Float
     var clientId:String
     
-    init(id: String, type: String, solde: Float, clientId: String) {
+    init(id: String?, type: String, solde: Float, clientId: String) {
         self.id = id
         self.type = type
         self.solde = solde

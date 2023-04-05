@@ -17,6 +17,9 @@
 		8434406129CE0ACD00ED0588 /* Compte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434406029CE0ACD00ED0588 /* Compte.swift */; };
 		8434406329CE0CFC00ED0588 /* BanqueRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434406229CE0CFC00ED0588 /* BanqueRestAPI.swift */; };
 		8434406529CE1D5F00ED0588 /* BanquesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434406429CE1D5F00ED0588 /* BanquesTVC.swift */; };
+		84A686ED29DD9FCD006DE474 /* CompteRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A686EC29DD9FCD006DE474 /* CompteRestAPI.swift */; };
+		84A686EF29DDA47D006DE474 /* ComptesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A686EE29DDA47D006DE474 /* ComptesTVC.swift */; };
+		84A686F129DDAF7C006DE474 /* OperationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A686F029DDAF7C006DE474 /* OperationVC.swift */; };
 		84B54CBA29D742160024AACA /* ClientRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B54CB929D742160024AACA /* ClientRestAPI.swift */; };
 		84B54CBC29D74C550024AACA /* ClientsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B54CBB29D74C550024AACA /* ClientsTVC.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +37,9 @@
 		8434406029CE0ACD00ED0588 /* Compte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compte.swift; sourceTree = "<group>"; };
 		8434406229CE0CFC00ED0588 /* BanqueRestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanqueRestAPI.swift; sourceTree = "<group>"; };
 		8434406429CE1D5F00ED0588 /* BanquesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanquesTVC.swift; sourceTree = "<group>"; };
+		84A686EC29DD9FCD006DE474 /* CompteRestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteRestAPI.swift; sourceTree = "<group>"; };
+		84A686EE29DDA47D006DE474 /* ComptesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComptesTVC.swift; sourceTree = "<group>"; };
+		84A686F029DDAF7C006DE474 /* OperationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationVC.swift; sourceTree = "<group>"; };
 		84B54CB929D742160024AACA /* ClientRestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRestAPI.swift; sourceTree = "<group>"; };
 		84B54CBB29D74C550024AACA /* ClientsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +84,8 @@
 				8434405429CE0A4B00ED0588 /* Info.plist */,
 				8434406429CE1D5F00ED0588 /* BanquesTVC.swift */,
 				84B54CBB29D74C550024AACA /* ClientsTVC.swift */,
+				84A686EE29DDA47D006DE474 /* ComptesTVC.swift */,
+				84A686F029DDAF7C006DE474 /* OperationVC.swift */,
 			);
 			path = "sol-td07";
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 			children = (
 				8434406229CE0CFC00ED0588 /* BanqueRestAPI.swift */,
 				84B54CB929D742160024AACA /* ClientRestAPI.swift */,
+				84A686EC29DD9FCD006DE474 /* CompteRestAPI.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -172,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A686ED29DD9FCD006DE474 /* CompteRestAPI.swift in Sources */,
 				8434404729CE0A4900ED0588 /* AppDelegate.swift in Sources */,
 				8434404929CE0A4900ED0588 /* SceneDelegate.swift in Sources */,
 				8434406129CE0ACD00ED0588 /* Compte.swift in Sources */,
@@ -180,6 +190,8 @@
 				84B54CBA29D742160024AACA /* ClientRestAPI.swift in Sources */,
 				8434406329CE0CFC00ED0588 /* BanqueRestAPI.swift in Sources */,
 				84B54CBC29D74C550024AACA /* ClientsTVC.swift in Sources */,
+				84A686EF29DDA47D006DE474 /* ComptesTVC.swift in Sources */,
+				84A686F129DDAF7C006DE474 /* OperationVC.swift in Sources */,
 				8434406529CE1D5F00ED0588 /* BanquesTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

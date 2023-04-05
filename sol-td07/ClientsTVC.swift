@@ -29,6 +29,10 @@ class ClientsTVC: UITableViewController, WhenClientsReady {
         DispatchQueue.main.async {
             self.clients = clients
             self.tableView.reloadData()
+            
+            //test de comptes
+            let compteRestApi = CompteRestAPI()
+            compteRestApi.getByClient(clientId: clients[0].id!)
         }
     }
     func updateIsDone(client: Client, index: Int) {
@@ -196,14 +200,20 @@ class ClientsTVC: UITableViewController, WhenClientsReady {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "comptesParClientSegue"{
+            let cell = sender as! UITableViewCell
+            let index = tableView.indexPath(for: cell)!.row
+            let destination = segue.destination as? ComptesTVC
+            destination?.clientId = self.clients[index].id
+        }
     }
-    */
+    
 
 }
